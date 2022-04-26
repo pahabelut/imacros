@@ -1,0 +1,33 @@
+VERSION BUILD=1011 RECORDER=CR
+
+SET !VAR1 EVAL("var xx=Math.floor(Math.random()*(5-2))+2; xx;") 
+
+EVENT TYPE=MOUSEDOWN SELECTOR="#app-mount>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(2)>MAIN>DIV>DIV>DIV>OL" BUTTON=0
+EVENT TYPE=MOUSEMOVE SELECTOR="#app-mount>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(2)>MAIN>DIV>DIV>DIV>OL" POINT="(794,440)"
+EVENT TYPE=MOUSEUP POINT="(794,440)"
+EVENT TYPE=CLICK SELECTOR="#app-mount>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(2)>MAIN>DIV>DIV>DIV>OL" BUTTON=0
+EVENT TYPE=KEYDOWN SELECTOR="#app-mount>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(2)>MAIN>DIV>DIV>DIV>OL" KEY=87
+EVENT TYPE=KEYPRESS SELECTOR="#app-mount>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(2)>MAIN>FORM>DIV>DIV>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)" CHAR="w"
+EVENT TYPE=KEYUP SELECTOR="#app-mount>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(2)>MAIN>FORM>DIV>DIV>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV" KEY=87
+EVENT TYPE=KEYPRESS SELECTOR="#app-mount>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(2)>MAIN>FORM>DIV>DIV>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV" CHAR="h"
+EVENT TYPE=KEYDOWN SELECTOR="#app-mount>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(2)>MAIN>FORM>DIV>DIV>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV" KEY=13
+EVENT TYPE=KEYUP SELECTOR="#app-mount>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(2)>MAIN>FORM>DIV>DIV>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)" KEY=13
+EVENT TYPE=KEYDOWN SELECTOR="#app-mount>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(2)>MAIN>FORM>DIV>DIV>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)" KEY=87
+WAIT SECONDS={{!VAR1}}
+EVENT TYPE=KEYPRESS SELECTOR="#app-mount>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(2)>MAIN>FORM>DIV>DIV>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)" CHAR="w"
+EVENT TYPE=KEYUP SELECTOR="#app-mount>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(2)>MAIN>FORM>DIV>DIV>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV" KEY=87
+EVENT TYPE=KEYPRESS SELECTOR="#app-mount>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(2)>MAIN>FORM>DIV>DIV>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV" CHAR="b"
+EVENT TYPE=KEYDOWN SELECTOR="#app-mount>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(2)>MAIN>FORM>DIV>DIV>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV" KEY=13
+EVENT TYPE=KEYUP SELECTOR="#app-mount>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(2)>MAIN>FORM>DIV>DIV>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)" KEY=13
+EVENT TYPE=KEYDOWN SELECTOR="#app-mount>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(2)>MAIN>FORM>DIV>DIV>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)" KEY=79
+WAIT SECONDS={{!VAR1}}
+EVENT TYPE=KEYPRESS SELECTOR="#app-mount>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(2)>MAIN>FORM>DIV>DIV>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)" CHAR="o"
+EVENT TYPE=KEYUP SELECTOR="#app-mount>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(2)>MAIN>FORM>DIV>DIV>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV" KEY=79
+EVENTS TYPE=KEYPRESS SELECTOR="#app-mount>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(2)>MAIN>FORM>DIV>DIV>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV" CHARS="wo"
+EVENT TYPE=KEYDOWN SELECTOR="#app-mount>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(2)>MAIN>FORM>DIV>DIV>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV" KEY=13
+EVENT TYPE=KEYUP SELECTOR="#app-mount>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(2)>MAIN>FORM>DIV>DIV>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)" KEY=13
+
+SET !VAR2 EVAL("var xx=Math.floor(Math.random()*(20-15))+15; xx;") 
+
+WAIT SECONDS={{!VAR2}}
+
